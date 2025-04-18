@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+    font-size: 0;
+}
+#playModeBtnBox{
+    display: inline-block;
+    vertical-align: top;    
+}
+#introduce{
+    display: inline-block;
+    white-space: nowrap;
+}
+#nowMinuteBox,#nowTimeSplitBox,#nowSecondBox,#timeSplitBox,#allTimeBox{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    outline: none;
+}
+#currentTimeBar{
+    background-color: #FFCCFF;
+    height: 100%;
+}
+#userSetBar{
+    background-color: #CCFFCC;
+    height: 100%;
+}

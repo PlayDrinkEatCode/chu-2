@@ -1,0 +1,6 @@
+/* 控制台打印 */
+function consoleLog_set(){
+    console.log("    　　　  。　　　　　　　　　　　。　　　　　　　　。　　。　　　。　　　　　　　　　。　　　　　　　　　　　。　　　。　　　　\n　　　　　　。　　　　　　　　。。。。。。。。　　　　　。　　。　　。　　　　　　　　　　。　　　　　　　。。。。。。。。。。。　\n　　　　　　。　　　　　　　　。　　　　　　。　　　　　　。。。。　。。。。　　　　　　　。　　　　　　　　　　。　　　。　　　　\n　　　　　　。　　　　　　　　。。。。。。。。　　　　　　　。　　。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\n　　　。　　。　　。　　　　　。　　　　　　。　　　　　　　。。。　。。。　　　。。。。。。。。。。。　　　　　。　　。　　　　　\n　　　。　　。　　　。　　　　。。。。。。。。　　　　。。　。　。　　　。　　　　　　　　　　　　　　　　　　。　　　。　　。　　\n　　。　　　。　　　。　　　　。　　　　　　　　　　　　。　。　。　　。　　　　　　　。　　　。　　　　　　。。　　　。　。　　　\n　　。　　　。　　　　。　　　。。。。。。。。。。　　　。　。　。。。。。。　　　　　。　　　　。　　　　。　。　　　。。　　　　\n　。　　　　。　　　　。　　　。　　　　　　　　　　　　。　。　。　　。　　　　　　。　　　　　　。　　　　　。　　　。　　　　　\n　　　　　　。　　　　　　　　。。。。。。。。。。　　　。。　。。　。。　　　　　　。　　　　　　。　　　　　。　　。。　　　。　\n　　　　　　。　　　　　　　　　　　　　　　　　。　　　。　　　　　　　　　　　　。　　　　　　　　。　　　　。　。　。　　　。　\n　　　　。。。　　　　　　　。　。　。　。　。。　　　。　。。。。。。。。。　　。　　　　　　　　　。　　　　。　　　　。。。。　\n");
+    console.log("%c ","background:url('" + href_main + "/img/1.jpg') no-repeat center;padding-left:300px;padding-bottom:300px;")
+    loadingSet_time = setInterval(loadingSet_over,1000);
+}

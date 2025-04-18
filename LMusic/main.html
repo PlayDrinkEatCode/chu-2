@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.ondragenter = function(event){
+            event.preventDefault();
+        }
+        window.ondragover = function(event){
+            event.preventDefault();
+        }
+        window.ondrop = function(event){
+            var url = URL.createObjectURL(event.dataTransfer.files[0]);
+            console.log(event.dataTransfer.files[0]);
+            console.log(event.dataTransfer.files[0].type);
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>

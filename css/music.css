@@ -1,0 +1,62 @@
+#musicMiddle{
+    background: #CCCCFF;
+}
+#music_rikka{
+    display: block;
+    cursor: url('../cursor/spoon.cur'),default;
+}
+#music_word{
+    overflow: auto;
+    text-align:center;
+}
+#music_bottom{
+    background: #FFF;
+    text-align: center;
+}
+.musicPageBtn{
+    cursor: url('../cursor/function.cur'),auto;
+}
+#music_information{
+    display: inline-block;
+    vertical-align: top;
+    transform: translateX(1%);
+    height: 100%;
+    color: #FFCCFF;
+}
+#musicInformationText{
+    width: 100%;
+    height: 40%;
+}
+#music_name_author{
+    display: inline-block;
+    width: 72%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#music_time{
+    display: inline-block;
+    width: 28%;
+    text-align: right;
+}
+#progress_bar{
+    width: 100%;
+    height: 10%;
+    background: #CCCCFF;
+    vertical-align: bottom;
+}
+#buffered_bar{
+    height: 100%;
+    background: #CCFFCC;
+}
+#played_bar{
+    height: 100%;
+    background: #FFCCFF;
+}
+#music_name{
+    display: inline;
+}
+#music_author{
+    display: inline;
+}

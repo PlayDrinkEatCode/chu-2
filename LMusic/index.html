@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>LMusic</title>
+
+</head>
+
+<body>
+    <main></main>
+    <!-- 设置信息 -->
+    <script>
+        var LMusicSetting = {
+            page: {/* 页面设置 */
+                background: '#C8C8FA',/* 背景颜色 */
+            },
+            mouse: {/* 鼠标指针 */
+                auto: 'cursor/auto.png',/* 一般状态 */
+                pointer: 'cursor/pointer.png',/* 指针状态 */
+                move: 'cursor/move.png [X|Y:10 10]',/* 移动状态 */
+            },
+            play: {/* 播放设置 */
+                auto: true,/* 自动播放 */
+                mode: 2,/* 播放方式 */
+            },
+            musicSrc: [/* 音乐地址 */
+                "music/ZAQ (ザック) - Sparkling Daydream (TV Size).mp3",
+                "music/Black Raison d'être (ブラックレーゾンデートル) - Sparkling Daydream.mp3",
+                "music/Black Raison d'être (ブラックレーゾンデートル) - INSIDE IDENTITY (TV Size).mp3",
+                "music/Black Raison d'être (ブラックレーゾンデートル) - INSIDE IDENTITY.mp3",
+            ],
+            download: {/* 下载功能 */
+                on: true,/* 是否开启 */
+                text: '图片',/* 下载前缀 */
+            },
+            fullScreen: {/* 全屏功能 */
+                on: true,/* 是否开启 */
+            },
+            buttonSrc: [/* 音乐地址 */
+                'btn/last.png',/* 上一首 */
+                'btn/play.png',/* 开始 */
+                'btn/pause.png',/* 暂停 */
+                'btn/next.png',/* 下一首 */
+                'btn/loop.png',/* 列表循环 */
+                'btn/loop-one.png',/* 单曲循环 */
+                'btn/random.png',/* 随机播放 */
+                'btn/volumeHigh.png',/* 音量大 */
+                'btn/volumeMedium.png',/* 音量中 */
+                'btn/volumeLow.png',/* 音量小 */
+                'btn/volume.png',/* 音量无 */
+                'btn/download.png',/* 下载 */
+                'btn/fullscreen.png'/* 全屏 */
+            ],
+        }
+    </script>
+    <div id="JavaScript">
+        <script src="js/main.js"></script>
+    </div>
+</body>
+
+</html>
