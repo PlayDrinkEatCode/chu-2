@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" sizes="128x128" href="favicon.ico">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/music.css" rel="stylesheet" type="text/css">
+    <title>中二病でも恋がしたい！</title>
+</head>
+<body>
+    <!--
+        音乐播放器采用LMusic
+        优化了音乐封面的显示效果
+    -->
+    <div id="loadingBox">
+        <img src="img/loading.gif" id="loading">
+    </div>
+
+    <div class="bg_box">
+        <img src="background/1.jpg" class="bg">
+    </div>
+    <div class="bg_box">
+        <img src="background/2.jpg" class="bg">
+    </div>
+    <div class="bg_box">
+        <img src="background/3.jpg" class="bg">
+    </div>
+    <div class="bg_box">
+        <img src="background/4.jpg" class="bg">
+    </div>
+
+    <audio id="music"></audio>
+    <img id="cover">
+    <div id="music_btn_box">
+        <img id="music_btn">
+    </div>
+    
+    <main>
+        <img src="logo/logo_cross.png" class="logo">
+        <img src="logo/logo.png" class="logo">
+        <div id="rikka_box">
+            <img id="rikka">
+        </div>
+    </main>
+
+    <main>
+        <div id="settingPageTop">
+            <img src="logo/logo_top.png" class="logo">
+            <div id="settingPageMusicControl">
+                <img id="settingPageMusicBtn">
+                <div id="settingPageMusicInformation"></div>
+            </div>
+        </div>
+        <iframe src="../VPicture/?/setting/setting.html" id="settingPic" allowfullscreen></iframe>
+    </main>
+
+    <main>
+        <div id="entertainmentTop">
+            <img src="logo/logo_top.png" class="logo">
+            <div id="entertainmentNavBox">
+                <div class="entertainmentNav">音乐</div>
+                <div class="entertainmentNav">拼图</div>
+            </div>
+        </div>
+        <iframe id="musicPage" src="LMusic"></iframe>
+        <div id="jigsawPuzzleMiddle"></div>
+        <div id="jigsawPuzzleBottom">
+            <div class="jigsawPuzzleBtn">打乱拼图</div>
+            <div class="jigsawPuzzleBtn">上一张</div>
+            <div class="jigsawPuzzleBtn">下一张</div>
+            <div class="jigsawPuzzleBtn">设置</div>
+        </div>
+        
+        <audio src="voice/jigsawPuzzle/1.wav"></audio>
+    </main>
+    <div id="jigsawPuzzleSetting">
+        <div id="jigsawPuzzleSettingClose">
+            <img id="jigsawPuzzleSetCloseBtn" src="img/jigsawPuzzle/btn/close.png">
+        </div>
+        <div id="jigsawPuzzleSettingMsg"></div>
+        拼图难度（自定义）
+        <br>
+        <input type="number" id="jigsawPuzzleSettingCount" autocomplete="off" placeholder="默认为3。">
+        <div id="jigsawPuzzleSettingSure">确认更改</div>
+    </div>
+
+    <script src="js/set_variable.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/keydown.js"></script>
+    <script src="js/consoleLog.js"></script>
+    <script src="js/jigsawPuzzle.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/entertainment.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/rikka.js"></script>
+    <script src="js/logo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/window.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/browser.js"></script>
+</body>
+</html>

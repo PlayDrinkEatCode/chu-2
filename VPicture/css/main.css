@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+}
+
+#PBB {
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.PB {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+#PIB {
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+}
+
+#PIBM {
+    display: inline-block;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#PMB {
+    position: fixed;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: none;
+}
+
+#BB {
+    position: fixed;
+    z-index: 1;
+}
+
+.NB {
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#LB,
+#RB {
+    z-index: 2;
+    background: rgba(50, 50, 50, 0.9);
+}
+
+.NBC {
+    background: #707070;
+    color: #FFFFFF;
+}
+
+.NBWC {
+    color: #707070;
+}
+
+#TB {
+    position: fixed;
+    z-index: 4;
+    background: rgba(0, 0, 0, .8);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#TBC {
+    position: fixed;
+    z-index: 3;
+}
+
+#IB {
+    position: fixed;
+    z-index: 5;
+    background: rgba(0, 0, 0, .8);
+    color: #FFFFFF;
+}
+
+#IBC {
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.IPM,
+.ISM,
+.IAM {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
